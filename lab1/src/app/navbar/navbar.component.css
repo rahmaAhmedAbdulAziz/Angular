@@ -1,0 +1,50 @@
+
+#img {
+    background-image: url("images.jpg");
+}
+
+h1,h3 {
+    color: rgb(27, 27, 27);
+    text-decoration: solid;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    color: rgb(250, 244, 244);
+    background-color: rgb(56, 56, 56);
+    text-decoration: solid;
+    padding-bottom: 50px;
+}
+
+#about{
+    padding:   2px;
+}
+#course{
+    background-color: brown;
+}
+#text{
+    height: 30px;
+    margin-top: 10px;
+
+}
+h1{
+    text-decoration: solid;
+    text-decoration: underline;
+    /* color: rgb(243, 233, 233); */
+}
+div{
+    background-color: rgb(75, 73, 73);
+    color: rgb(224, 214, 214);
+    text-decoration: solid;
+    
+
+}
+.btn{
+    color: rgb(250, 246, 246);
+    background-color: rgb(112, 108, 108);
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+
+}

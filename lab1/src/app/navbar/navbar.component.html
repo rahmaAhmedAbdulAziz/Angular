@@ -1,0 +1,101 @@
+<div id="img" class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <h1>{{name}}</h1>
+      <h3>{{jobTitle}}</h3>
+      <button type="button" class="btn ">contant with me</button>
+
+  <div class="bg-image">
+
+    <img src="./images.jpg" alt="Italian Trulli">
+  </div>
+</div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-4 bg-Light">
+          <h1>About me</h1>
+      </div>
+  <div class="col-8" id="about">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Neque, id veniam at ex cupiditate reiciendis alias. 
+           Aut molestias incidunt aperiam.
+           Voluptates tempora itaque et dolorem nulla repellendus dolores quae est.</h3>
+           <a download href="./app.html" class="download-btn bg-dark text-white ">Dowenloud Resume<i class="fa fa-downloud"></i></a>
+      
+      </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row bg-dark text-white">
+      <div class="row">
+        <h1 style="text-align: center;">skills </h1>
+        <h3 style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Ipsam neque nulla harum qui beatae magnam quisquam saepe,
+          reiciendis quos cumque recusandae ex veniam. Veritatis quas maiores,
+          tenetur nisi repellat reiciendis?</h3>
+      </div>
+  
+      <div class="col-6">
+        <h2 style="text-decoration: underline;"> MY Fouces </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-5 text-align: center;" id="text">
+              <h3 style="text-decoration: solid; font-style:italic">
+                front end <br>
+                node <br>
+                bootstrsp <br>
+                mango <br>
+                scss <br>
+                angular <br>
+              </h3>
+            </div>
+  
+            <div class="col-7 container-fluid" style="padding: -1px; ">
+              <!-- <app-progress *ngFor="let percentage of coursesPercentages" progressPercentage="{{percentage}}"></app-progress> -->
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h1>portfolio</h1>
+  <app-skill class="col-4" *ngFor="let course of courses" courseName="{{course.name}}" background="{{course.background}}"></app-skill>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-4">
+          <h4>Get in touch</h4>
+        <h5>  <i class=" fa-address-card"></i>rahma@gmail.com </h5>
+        <h5><i class="fa-solid fa-envelope"></i>0123456679</h5>
+      </div>
+      <div class="col-4">
+       <button type="button" class="btn" >contant with me</button>
+      </div>
+      <div class="col-4" style="text-align: center;">
+        <h6>  <i class="fa-brands fa-facebook-square">facebook</i></h6>
+         <h6><i class="fa-brands fa-github"></i>githob</h6> 
+         <h6 > @copy right</h6>
+      </div>
+  </div>
+  </div>
